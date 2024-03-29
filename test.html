@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li data-a="q" class="asd"></li>
+      <li data-a="w" class="asd"></li>
+      <li data-b="e" class="asd"></li>
+    </ul>
+    <script>
+      let lis = document.querySelectorAll(".asd");
+      lis.forEach((item) => {
+        console.log(item.dataset);
+      });
+      // let att = [
+      //   {
+      //     label: "haha",
+      //     num: 0,
+      //   },
+      //   {
+      //     label: "haha1",
+      //     num: 1,
+      //   },
+      //   {
+      //     label: "haha2",
+      //     num: 2,
+      //   },
+      // ];
+      // att.splice(0, 1);
+      // console.log(att);
+    </script>
+  </body>
+</html>
