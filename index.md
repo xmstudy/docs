@@ -5,12 +5,12 @@ layout: home
 hero:
   name: "XM Study Docs"
   text: "在线文档"
-  tagline: My great project tagline
+  tagline: 持续学习
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 第一个实例
       link: /markdown-examples
-    - theme: alt
+    - theme: 第二个实例
       text: API Examples
       link: /api-examples
 
