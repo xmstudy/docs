@@ -1,0 +1,38 @@
+/* .vitepress/theme/custom.css */
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("/docs/assets/font/MaShanZheng-Regular.woff2") format("woff2"),
+    url("/docs/assets/font/MaShanZheng-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home_icon {
+  width: 50px;
+  display: inline;
+  vertical-align: middle;
+}
+.home_text {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  font-family: "MyCustomFont", sans-serif;
+}
+.home_tip_icon {
+  display: inline;
+  width: 25px;
+  vertical-align: bottom;
+}
+.main .name .clip {
+  font-size: 60px;
+  font-weight: bold;
+  background: linear-gradient(to right, #49aecf, #d66dd6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
+.margin_top_8 {
+  margin-top: 8px;
+}
